@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+
+
+.no-underline{
+  text-decoration: none;
+ }
+
+ .question{
+  border-left: 4px solid rgb(168, 168, 168);
+  line-height: 40px;
+  padding-left: 10px ;
+
+ }
+
+ .question:hover{
+  background-color: #fdfdc2;
+
+ }
+
+
+ .answer{
+  border-left: 4px solid rgb(168, 168, 168);
+  line-height: 40px;
+  padding-left: 10px ;
+ }
+
+ .answer:hover{
+  background-color: #fdfdc2;
+
+ }
+
+ .button{
+  background-color: #b0cdfd;
+  border-radius: 5px;
+  width: 70px;
+  height: 50px;
+ }
